@@ -1,0 +1,17 @@
+{
+    "name": "allkicq",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Chrome Extension for Auto Fill KIT's Class Evaluation Questionnaire",
+    "content_scripts": [{
+      "matches": ["https://portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*"],
+      "js": [
+        "main.js"
+      ]
+    }],
+    "icons": {
+        "16" : "icons/icon16.png",
+        "48" : "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+  }
