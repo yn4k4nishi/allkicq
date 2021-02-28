@@ -6,7 +6,7 @@ Chrome Extension for **A**uto Fi**ll** **KI**T's **C**lass Evaluation **Q**uesti
 
 ## インストール
 1. [Release](https://github.com/yn4k4nishi/allkicq/releases)のAssetsからzipをダウンロードして解凍する
-2. google chrome で chrome://extensions/ を開く
+2. google chrome で [chrome://extensions/](chrome://extensions/) を開く
 3. 右上の`Developer mode`をオンにする
 4. 左上に出てくる`Load unpacked`を押して、解凍したフォルダを選択する。
 5. allkicq が追加されているか確認する
