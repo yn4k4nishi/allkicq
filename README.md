@@ -10,7 +10,6 @@ Chrome Extension for **A**uto Fi**ll** **KI**T's **C**lass Evaluation **Q**uesti
 3. 右上の`Developer mode`をオンにする
 4. 左上に出てくる`Load unpacked`を押して、解凍したフォルダを選択する。
 5. allkicq が追加されているか確認する
-6. (解凍したフォルダは消してOK)
 
 ## 使い方
 拡張機能がインストールされている状態で授業評価アンケートのページを開くと自動入力されるので、
