@@ -2,8 +2,10 @@ window.onload = function() {
     // ラジオボタンの要素を取得
     var inputs = document.getElementsByTagName("input");
     
-    // すべてをチェックする
+    // すべて4をチェックする
     Array.prototype.forEach.call(inputs, function(t){
-        t.checked = true;
+        if (t.value == "4"){
+            t.checked = true;
+        }
     });
 };
