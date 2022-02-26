@@ -6,7 +6,8 @@
     "content_scripts": [{
       "matches": [
         "https://portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*",
-        "https://vpns.cis.kit.ac.jp/proxy/*/https/portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*"
+        "https://vpns.cis.kit.ac.jp/proxy/*/https/portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*",
+        "https://vpnv.cis.kit.ac.jp/*/ead/?c=class_evaluation_reply&lc=*"
       ],
       "js": [
         "main.js"
