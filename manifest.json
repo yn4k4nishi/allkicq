@@ -4,7 +4,10 @@
     "manifest_version": 2,
     "description": "Chrome Extension for Auto Fill KIT's Class Evaluation Questionnaire",
     "content_scripts": [{
-      "matches": ["https://portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*"],
+      "matches": [
+        "https://portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*",
+        "https://vpns.cis.kit.ac.jp/proxy/*/https/portal.student.kit.ac.jp/ead/?c=class_evaluation_reply&lc=*"
+      ],
       "js": [
         "main.js"
       ]
