@@ -15,3 +15,10 @@ Chrome Extension for **A**uto Fi**ll** **KI**T's **C**lass Evaluation **Q**uesti
 拡張機能がインストールされている状態で授業評価アンケートのページを開くと自動入力されるので、
 スクロールして`回答を保存する Save`を押すとアンケートの回答が終わる。
 
+## Trouble Shooting
+#### 拡張機能は入ったけど、自動入力されない場合
+chrome://extensions/ を開いて、 allkicqのDetailsを開く
+Site accessの欄から使用するVPN等に対応するもののチェックを入れる。
+(全てにチェックを入れるの推奨)
+
+![](img/ts1.png)
