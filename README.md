@@ -21,4 +21,6 @@ chrome://extensions/ を開いて、 allkicqのDetailsを開く
 Site accessの欄から使用するVPN等に対応するもののチェックを入れる。
 (全てにチェックを入れるの推奨)
 
-![](img/ts1.png)
+||
+|---|
+|![](img/ts1.png)|
